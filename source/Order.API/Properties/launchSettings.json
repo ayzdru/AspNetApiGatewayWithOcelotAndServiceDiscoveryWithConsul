@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Order.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/order",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5070"
+    }
+  }
+}
