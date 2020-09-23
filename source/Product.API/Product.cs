@@ -6,6 +6,6 @@ namespace Product.API
     {
         public string Name { get; set; }
         public decimal Amount { get; set; }
-        public string RequestUrl { get; set; }
+        public string AppUrl { get; set; }
     }
 }

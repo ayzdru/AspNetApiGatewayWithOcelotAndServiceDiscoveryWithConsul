@@ -30,7 +30,7 @@ namespace Product.API.Controllers
             return Enumerable.Range(1, 5).Select(index => new Product
             {
                 Amount = rng.Next(10, 500),
-                RequestUrl = HttpContext.Request.Host.ToString(),
+                AppUrl = HttpContext.Request.Host.ToString(),
                 Name = ProductNames[rng.Next(ProductNames.Length)]
             })
             .ToArray();

@@ -7,6 +7,6 @@ namespace Order.API
         public DateTime OrderedDate { get; set; }
         public string ProductName { get; set; }
         public decimal TotalAmount { get; set; }
-        public string RequestUrl { get; set; }
+        public string AppUrl { get; set; }
     }
 }

@@ -31,7 +31,7 @@ namespace Order.API.Controllers
             {
                 OrderedDate = DateTime.Now.AddDays(index),
                 TotalAmount = rng.Next(10, 500),
-                RequestUrl = HttpContext.Request.Host.ToString(),
+                AppUrl = HttpContext.Request.Host.ToString(),
                 ProductName = ProductNames[rng.Next(ProductNames.Length)]
             })
             .ToArray();

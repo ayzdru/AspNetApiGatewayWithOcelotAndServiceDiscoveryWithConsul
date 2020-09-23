@@ -19,6 +19,7 @@
     },
     "OcelotAndConsul": {
       "commandName": "Project",
+      "launchBrowser": true,
       "launchUrl": "order",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

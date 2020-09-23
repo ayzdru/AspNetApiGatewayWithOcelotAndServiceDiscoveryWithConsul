@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Order.API.Extensions
+namespace Product.API.Extensions
 {
     public static class ConsulExtensions
     {
@@ -41,9 +41,9 @@ namespace Order.API.Extensions
             var uri = new Uri(address);
             var registration = new AgentServiceRegistration()
             {
-                ID = $"Order-{uri.Port}",
+                ID = $"Product-{uri.Port}",
                 // servie name  
-                Name = "order",
+                Name = "product",
                 Address = $"{uri.Host}",
                 Port = uri.Port
             };
