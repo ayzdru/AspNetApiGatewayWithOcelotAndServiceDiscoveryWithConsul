@@ -1,1 +1,1 @@
-ASP.NET Ocelot With Api Gateway and Consul With Service Discovery
+ASP.NET  Api Gateway With Ocelot and Service Discovery With Consul
